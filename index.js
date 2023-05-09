@@ -217,7 +217,7 @@ app.get('/admin', async (req, res) => {
       username: req.session.username
     });
   } else {
-    res.render("admin_error");
+    res.render("403");
   }
 });
 
